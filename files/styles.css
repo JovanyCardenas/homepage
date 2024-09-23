@@ -78,42 +78,6 @@ footer .social-media a {
 footer .social-media a:hover {
     color: #ddd;
 }
-#skillsUSAButton{
-    font-weight: bold;
-    width: 600px;
-    height: 50px;
-    font-size: 20px;
-}
-#collegeCorpsButton{
-    font-weight: bold;
-    width: 600px;
-    height: 50px;
-    font-size: 20px;
-}
-#careerCenterButton{
-    font-weight: bold;
-    width: 600px;
-    height: 50px;
-    font-size: 20px;
-}
-#math183Button{
-    font-weight: bold;
-    width: 600px;
-    height: 50px;
-    font-size: 20px;
-}
-#phys161Button{
-    font-weight: bold;
-    width: 600px;
-    height: 50px;
-    font-size: 20px;
-}
-#cs161Button{
-    font-weight: bold;
-    width: 600px;
-    height: 50px;
-    font-size: 20px;
-}
 #skillsUSA-content{
     display: none;
 }

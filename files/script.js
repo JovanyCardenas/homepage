@@ -6,3 +6,13 @@ function dropdownContentButton(name){
         content.style.display = "none";
     }
 }
+function login(username, password){
+
+
+    if (username === ""){
+        if (username === "" && password === ""){
+            // Welcome user logged in!
+        }else{}
+        
+    }
+}

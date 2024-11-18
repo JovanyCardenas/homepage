@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Login</title>
   <link rel="stylesheet" href="files/styles.css">
+  <script src="files/script.js"></script>
 </head>
 <body>
 <header>
@@ -14,16 +15,17 @@
     </ul>
   </nav>
 </header>
-<h1>Login Page</h1>
+<h1 style="text-align: center">Login Page</h1>
 
-<form action="">
+<div class="center">
+<form id="loginForm" onsubmit="login()">
   <label for="username">Enter your Username:</label>
-  <input type="text" name="username" id="username" required>
+  <input type="text" name="username" id="username" required><br>
   <label for="password">Enter your Password:</label>
-  <input type="password" name="password" id="password">
+  <input type="password" name="password" id="password"><br>
   <button type="submit" name="submit" id="submitButton">Submit</button>
 </form>
-
+</div>
 
 </body>
 </html>

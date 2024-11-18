@@ -96,3 +96,6 @@ footer .social-media a:hover {
 #cs161-content{
     display: none;
 }
+.center{
+    text-align: center;
+}

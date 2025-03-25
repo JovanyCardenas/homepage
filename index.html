@@ -10,63 +10,94 @@
 <body>
 <header>
     <h1>Jovany Cardenas Vargas</h1>
-    <a href="login-page.html"><div style="text-align: right;padding-right: 50px;font-size: 14px">Login</div></a>
-    <nav>
-        <ul>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#work">Work Stuff</a></li>
-<!--            <li><a href="#otherLinks">Other Links</a></li>-->
-        </ul>
-    </nav>
+<!--    <a href="login-page.html"><div style="text-align: right;padding-right: 50px;font-size: 14px">Login</div></a>-->
+<!--    <nav>-->
+<!--        <ul>-->
+<!--            <li><a href="#portfolio">Portfolio</a></li>-->
+<!--            <li><a href="#work">Work Stuff</a></li>-->
+<!--&lt;!&ndash;            <li><a href="#otherLinks">Other Links</a></li>&ndash;&gt;-->
+<!--        </ul>-->
+<!--    </nav>-->
 </header>
+<br><br>
+<main style="height: 100vh;">
+    <style>
+        button{
+            width: 80vw;
+            max-width: 250px;
+            height: 20vh;
+            font-size: 2vh;
+            font-weight: bold;
+            background-color: lightskyblue;
+            border-radius: 5vh;
+            border: solid black .5vh;
+            padding: 1rem;
+            text-align: center;
+            transition: background-color 0.5s ease;
+        }
+        button:hover{
+            background-color: deepskyblue;
+        }
+        .button_container{
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            gap: 1rem;
+        }
+    </style>
+    <div style='display: flex; justify-content: center; align-items: center;' class='button_container'>
+    <a href="https://ahc.jovanycardenasvargas.org/"><button>Homepage</button></a>
+    <a href="https://ahc.jovanycardenasvargas.org/run_log/"><button>Run/Step Log</button></a>
+    <a href="https://run-log.jovanycardenasvargas.org/"><button>Run Log</button></a>
 
-<main>
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <a href="https://portfolio.jovanycardenasvargas.org" target="_blank">Visit my Personal Portfolio</a><br>
-        <a href="https://github.com/jovanycardenas" target="_blank">Visit My GitHub</a>
-    </section>
-    
-    <section id="work">
-        <!-- Career Center -->
-        <h2>Career Center</h2>
-        <div id="careerCenter-content">
-        <p>These are links to Career Center stuff.</p>
-        <ul>
-            <li><a href="https://www.hancockcollege.edu/careers/index.php" target="_blank">Career Center Homepage</a></li>
-<!--            <li><a href="" target="_blank"></a></li>-->
-<!--            <li><a href="" target="_blank"></a></li>-->
-<!--            <li><a href="" target="_blank"></a></li>-->
-<!--            <li><a href="" target="_blank"></a></li>-->
-        </ul>
-        </div>
+    </div>
+<!--    <section id="portfolio">-->
+<!--        <h2>Portfolio</h2>-->
+<!--        <a href="https://portfolio.jovanycardenasvargas.org" target="_blank">Visit my Personal Portfolio</a><br>-->
+<!--        <a href="https://github.com/jovanycardenas" target="_blank">Visit My GitHub</a>-->
+<!--    </section>-->
+<!--    -->
+<!--    <section id="work">-->
+<!--        &lt;!&ndash; Career Center &ndash;&gt;-->
+<!--        <h2>Career Center</h2>-->
+<!--        <div id="careerCenter-content">-->
+<!--        <p>These are links to Career Center stuff.</p>-->
+<!--        <ul>-->
+<!--            <li><a href="https://www.hancockcollege.edu/careers/index.php" target="_blank">Career Center Homepage</a></li>-->
+<!--&lt;!&ndash;            <li><a href="" target="_blank"></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li><a href="" target="_blank"></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li><a href="" target="_blank"></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li><a href="" target="_blank"></a></li>&ndash;&gt;-->
+<!--        </ul>-->
+<!--        </div>-->
 
-        <!-- College Corps -->
-        <h2 onclick="dropdownContentButton('collegeCorps-content')">College Corps</h2>
-        <div id="collegeCorps-content">
-        <p>Here are links to College Corps stuff.</p>
-        <ul>
-            <li><a href="https://americalearns.net/index.cfm?event=user.login" target="_blank">America Learns Login</a></li>
-            <li><a href="https://app.signalvine.com/auth/login" target="_blank">SignalVine Login</a></li>
-            <li><a href="https://web.groupme.com/signin" target="_blank">GroupMe Login</a></li>
-        </ul></div>
+<!--        &lt;!&ndash; College Corps &ndash;&gt;-->
+<!--        <h2 onclick="dropdownContentButton('collegeCorps-content')">College Corps</h2>-->
+<!--        <div id="collegeCorps-content">-->
+<!--        <p>Here are links to College Corps stuff.</p>-->
+<!--        <ul>-->
+<!--            <li><a href="https://americalearns.net/index.cfm?event=user.login" target="_blank">America Learns Login</a></li>-->
+<!--            <li><a href="https://app.signalvine.com/auth/login" target="_blank">SignalVine Login</a></li>-->
+<!--            <li><a href="https://web.groupme.com/signin" target="_blank">GroupMe Login</a></li>-->
+<!--        </ul></div>-->
 
-        <!-- SkillsUSA -->
-        <h2 onclick="dropdownContentButton('skillsUSA-content')">SkillsUSA</h2>
-        <div id="skillsUSA-content">
-        <p>These are SkillsUSA related links.</p>
-        <ul>
-            <li><a href="https://forms.office.com/pages/responsepage.aspx?id=hMLodBA0SUOFrHFXwgYDmjfowSpmfKhFjWV71oabVW1UNDk2TThNTzE0MFUyMkROSU8zOUxZVUZGUS4u" target="_blank">SkillsUSA Signup Sheet</a></li>
-            <li><a href="https://www.skillsusaca.org/" target="_blank">SkillsUSA California Homepage</a></li>
-            <li><a href="https://www.skillsusa-register.org/scores" target="_blank">SkillsUSA Results</a></li>
-            <li><a href="https://www.skillsusaca.org/regional-updates" target="_blank">SkillsUSA Regional Competition Guidelines</a></li>
-            <li><a href="https://www.skillsusaca.org/stateconference" target="_blank">SkillsUSA CA State Competition Guidelines</a></li>
-            <li><a href="https://skillsusa.org/" target="_blank">SkillsUSA NLSC</a></li>
-<!--            <li><a href="" target="_blank"></a></li>-->
-<!--            <li><a href="" target="_blank"></a></li>-->
-        </ul>
-        </div>
-    </section>
+<!--        &lt;!&ndash; SkillsUSA &ndash;&gt;-->
+<!--        <h2 onclick="dropdownContentButton('skillsUSA-content')">SkillsUSA</h2>-->
+<!--        <div id="skillsUSA-content">-->
+<!--        <p>These are SkillsUSA related links.</p>-->
+<!--        <ul>-->
+<!--            <li><a href="https://forms.office.com/pages/responsepage.aspx?id=hMLodBA0SUOFrHFXwgYDmjfowSpmfKhFjWV71oabVW1UNDk2TThNTzE0MFUyMkROSU8zOUxZVUZGUS4u" target="_blank">SkillsUSA Signup Sheet</a></li>-->
+<!--            <li><a href="https://www.skillsusaca.org/" target="_blank">SkillsUSA California Homepage</a></li>-->
+<!--            <li><a href="https://www.skillsusa-register.org/scores" target="_blank">SkillsUSA Results</a></li>-->
+<!--            <li><a href="https://www.skillsusaca.org/regional-updates" target="_blank">SkillsUSA Regional Competition Guidelines</a></li>-->
+<!--            <li><a href="https://www.skillsusaca.org/stateconference" target="_blank">SkillsUSA CA State Competition Guidelines</a></li>-->
+<!--            <li><a href="https://skillsusa.org/" target="_blank">SkillsUSA NLSC</a></li>-->
+<!--&lt;!&ndash;            <li><a href="" target="_blank"></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li><a href="" target="_blank"></a></li>&ndash;&gt;-->
+<!--        </ul>-->
+<!--        </div>-->
+<!--    </section>-->
 <!--    <section id="otherLinks">-->
 <!--        <h2>Other Links</h2>-->
 <!--        <p>Include any other links you'd like to share here.</p>-->
@@ -81,7 +112,8 @@
     <p>&copy; 2024 Jovany Cardenas Vargas. All Rights Reserved.</p>
     <div class="social-media">
         <a href="https://instagram.com/jovany.cardenas.75" target="_blank">Instagram</a> |
-        <a href="https://www.linkedin.com/in/jovany-cardenas-vargas-ba6453224/" target="_blank">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/jovany-cardenas-vargas-ba6453224/" target="_blank">LinkedIn</a> |
+        <a href="https://portfolio.jovanycardenasvargas.org">Personal Portfolio</a>
     </div>
 </footer>
 </body>
